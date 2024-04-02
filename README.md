@@ -3,7 +3,7 @@ Title: Report mvc course
 Description: How to use this repo
 ---
 
-![sky](nature.jpg){.imgsky}
+![sky](nature.jpg)
 
 How to clone a repo
 ==========================

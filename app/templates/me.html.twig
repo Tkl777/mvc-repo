@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+<h1>About Me</h1>
+    <p>This is me, Karoliina. 36 år gammal och mamma till två fartfyllda killar.
+        Efter över 10 år  i arbetslivet bestämde jag mig att göra något annat och utbilda om mig.
+        Jag är född och uppvuxen i Åbo, Finland.
+    </p>
+    <a href="{{ asset('img/me.jpg') }}">
+        <img src="{{ asset('img/me.jpg') }}" alt="Picture of me">
+    </a>
+
+{% endblock %}

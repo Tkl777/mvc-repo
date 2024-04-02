@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+
+{% block title %}About{% endblock %}
+
+{% block body %}
+<div class="row">
+    <div class="column">
+<h1>About kursen MVC</h1>
+    <p>Kursen Objektorienterade webbteknologier, a.k.a. mvc, fokuserar på objektorienterade programmeringstekniker i programmeringsspråket PHP.
+    Syftet med kursen är att lära mig kunna utveckla och driftsätta en webbapplikation där objektorienterad programmering i ramverk tillsammans med databaser har en central roll.</p>
+    <a href="{{ asset('img/programmering.jpg') }}">
+        <img src="{{ asset('img/programmering.jpg') }}" alt="Picture of code">
+    </a>
+    </div>
+
+    <div class="column"></div>
+    <ul>
+        <li><a href = https://github.com/dbwebb-se/mvc>Course repo</a></li>
+        <li><a href = https://github.com/Tkl777/mvc-repo>My course repo</a></li>
+    </ul>
+     
+    
+    </div>
+
+</div>
+{% endblock %}

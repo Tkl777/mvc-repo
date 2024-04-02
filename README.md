@@ -3,6 +3,8 @@ Title: Report mvc course
 Description: How to use this repo
 ---
 
+![sky](nature.jpg){.imgsky}
+
 How to clone a repo
 ==========================
 
@@ -12,4 +14,3 @@ How to start the app
 ==========================
 To start the web app, you need to be on the app-folder in your terminal. Then run command $ php -S localhost:8888 -t public. App can be opened in a web browser at http://localhost:8888. 
 
-![me](nature.jpg){.imgme}

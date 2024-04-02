@@ -12,4 +12,4 @@ How to start the app
 ==========================
 To start the web app, you need to be on the app-folder in your terminal. Then run command $ php -S localhost:8888 -t public. App can be opened in a web browser at http://localhost:8888. 
 
-![me](%pic_url%/img/nature.jpg){.imgme}
+![me](nature.jpg){.imgme}
